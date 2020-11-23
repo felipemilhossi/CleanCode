@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30223.230
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanCode.DirtyCode", "CleanCode.DirtyCode\CleanCode.DirtyCode.csproj", "{D5F2AD75-FD31-41CE-B211-844CC191E51C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanCode.UnityTest", "CleanCode.UnityTest\CleanCode.UnityTest.csproj", "{2692BFCC-7D0A-4F8E-AB11-15F0E3BA5916}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - DirtyCode", "1 - DirtyCode", "{32D9095F-F5D0-4AA6-88E5-2C559CF8CF86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - UnitTest", "2 - UnitTest", "{ED7D3C79-6377-4AD9-85E9-FAD123C32931}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - RenamePropertiesAndMethod", "3 - RenamePropertiesAndMethod", "{8A2F545E-2CCA-436F-AEAD-1F31D630080D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanCode.Rename", "CleanCode.Rename\CleanCode.Rename.csproj", "{0D139E36-194A-476E-828B-E8E4F3063D7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - ReplaceMagicNumber", "4 - ReplaceMagicNumber", "{D49EFD37-2DBB-4628-B17F-F03B1A223D6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCode.ReplaceMagicNumber", "CleanCode.ReplaceMagicNumber\CleanCode.ReplaceMagicNumber.csproj", "{02435CDC-0696-4AA7-8C09-5A010319440B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - ResolveComments", "5 - ResolveComments", "{FE757A26-6176-4304-8754-45E7C7846EC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCode.ResolveComments", "CleanCode.ResolveComments\CleanCode.ResolveComments.csproj", "{B3319615-8365-4F32-B32E-77E7CD296E35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - ReplaceErrorCodeWithException", "6 - ReplaceErrorCodeWithException", "{356CB28F-BDC6-4CBF-9D0A-CBBDDFEE591A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCode.ReplaceErrorCodeWithException", "CleanCode.ReplaceErrorCodeWithException\CleanCode.ReplaceErrorCodeWithException.csproj", "{B5F8D2A6-8CAD-463C-94F1-8B7903429904}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7 - SimplifyingConditional", "7 - SimplifyingConditional", "{864F3E5F-E8BA-4136-90FE-44FDCF352CB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCode.SimplifyingConditional", "CleanCode.SimplifyingConditional\CleanCode.SimplifyingConditional.csproj", "{7D58892A-EA0D-4766-9A3D-C36F0E42FA1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5F2AD75-FD31-41CE-B211-844CC191E51C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5F2AD75-FD31-41CE-B211-844CC191E51C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5F2AD75-FD31-41CE-B211-844CC191E51C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5F2AD75-FD31-41CE-B211-844CC191E51C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2692BFCC-7D0A-4F8E-AB11-15F0E3BA5916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2692BFCC-7D0A-4F8E-AB11-15F0E3BA5916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2692BFCC-7D0A-4F8E-AB11-15F0E3BA5916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2692BFCC-7D0A-4F8E-AB11-15F0E3BA5916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D139E36-194A-476E-828B-E8E4F3063D7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D139E36-194A-476E-828B-E8E4F3063D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D139E36-194A-476E-828B-E8E4F3063D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D139E36-194A-476E-828B-E8E4F3063D7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02435CDC-0696-4AA7-8C09-5A010319440B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02435CDC-0696-4AA7-8C09-5A010319440B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02435CDC-0696-4AA7-8C09-5A010319440B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02435CDC-0696-4AA7-8C09-5A010319440B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3319615-8365-4F32-B32E-77E7CD296E35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3319615-8365-4F32-B32E-77E7CD296E35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3319615-8365-4F32-B32E-77E7CD296E35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3319615-8365-4F32-B32E-77E7CD296E35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5F8D2A6-8CAD-463C-94F1-8B7903429904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5F8D2A6-8CAD-463C-94F1-8B7903429904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5F8D2A6-8CAD-463C-94F1-8B7903429904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5F8D2A6-8CAD-463C-94F1-8B7903429904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D58892A-EA0D-4766-9A3D-C36F0E42FA1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D58892A-EA0D-4766-9A3D-C36F0E42FA1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D58892A-EA0D-4766-9A3D-C36F0E42FA1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D58892A-EA0D-4766-9A3D-C36F0E42FA1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D5F2AD75-FD31-41CE-B211-844CC191E51C} = {32D9095F-F5D0-4AA6-88E5-2C559CF8CF86}
+		{2692BFCC-7D0A-4F8E-AB11-15F0E3BA5916} = {ED7D3C79-6377-4AD9-85E9-FAD123C32931}
+		{0D139E36-194A-476E-828B-E8E4F3063D7D} = {8A2F545E-2CCA-436F-AEAD-1F31D630080D}
+		{02435CDC-0696-4AA7-8C09-5A010319440B} = {D49EFD37-2DBB-4628-B17F-F03B1A223D6F}
+		{B3319615-8365-4F32-B32E-77E7CD296E35} = {FE757A26-6176-4304-8754-45E7C7846EC1}
+		{B5F8D2A6-8CAD-463C-94F1-8B7903429904} = {356CB28F-BDC6-4CBF-9D0A-CBBDDFEE591A}
+		{7D58892A-EA0D-4766-9A3D-C36F0E42FA1F} = {864F3E5F-E8BA-4136-90FE-44FDCF352CB5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {015C62E3-495F-4F79-98A3-2AC0E98F4757}
+	EndGlobalSection
+EndGlobal
